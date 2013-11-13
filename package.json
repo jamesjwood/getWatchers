@@ -1,10 +1,14 @@
 {
   "name": "getwatchers",
   "version": "0.0.0",
-  "description": "",
+  "description": "Gets the dependency package.jsons to watch in a project",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesjwood/getWatchers.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "",
   "license": "BSD-2-Clause",

@@ -1,6 +1,6 @@
 var grunt = require('grunt');
 module.exports =  function(){
-  var deps = ['*.js','src/**/*.js', 'test/**/*.js'];
+  var deps = [];
   var pkg= grunt.file.readJSON('package.json');
   for(var name in pkg.dependencies)
   {
