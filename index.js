@@ -1,7 +1,5 @@
-var path = require('path');
-
 module.exports =  function(pkg){
-	var deps = ['*.js','src/**/*.js', 'test/**/*.js'];
+	var deps = [];
 	for(var name in pkg.dependencies)
 	{
   		deps.push('../' + name + '/package.json');

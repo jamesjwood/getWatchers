@@ -1,10 +1,15 @@
 {
   "name": "getwatchers",
   "version": "0.0.0",
-  "description": "",
+  "description": "Gets the dependency package.jsons to watch in a project",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesjwood/getWatchers.git"
+  },
   "scripts": {
-    "link": "rm -R node_modules; npm link;"
+    "link": "rm -R node_modules; npm link;",
+    "test": ""
   },
   "author": "",
   "license": "BSD-2-Clause",
