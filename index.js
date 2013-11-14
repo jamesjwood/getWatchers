@@ -4,6 +4,6 @@ module.exports =  function(pkg){
 	{
   		deps.push('../' + name + '/package.json');
   		deps.push('node_modules/' + name + '/package.json');
-  	}
-  	return deps;
+  }
+  return deps;
 }
