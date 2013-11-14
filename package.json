@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link": "rm -R node_modules; npm link;"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "0.4.x"
   }
 }
